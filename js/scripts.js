@@ -1,24 +1,50 @@
 console.log('int ok');  //inizializzazione progetto
-for (let i = 1 ; i <= 100 ; i++){
+for (let i = 1 ; i <= 15 ; i++){
     // console.log('i',i,typeof i); //debug
+
+    const ul = document.getElementById("box-ul");
+    console.log('ul', ul, typeof ul);
+    const li = document.createElement('li');
+    ul.append(li);
+
     if (i % 5 == 0 && i % 3 == 0){
         //console.log('sono un multiplo di tre e cinque',i); //debug
         console.log('FizzBuzz');
+        li.innerHTML = 'FizzBuzz';
     }
     else if (i % 3 == 0){
         //console.log('sono un multiplo di tre',i); //debug
         console.log('Fizz');
+        li.innerHTML = 'Fizz';
+
     }
     else if (i % 5 == 0){
         //console.log('sono un multiplo di cinque',i); //debug
         console.log('Buzz');
+        li.innerHTML = 'Buzz';
+
     }
     else{
         //console.log('non sono un divisore', i); //debug
         console.log(i)
+        li.innerHTML = i;
+
     }
 
+
+    // ul.append(li);
+    // li.append(i);
+    //newLi.innerHTML = `${index}`;
+    //newLi.className = `box box-${index}`;
+
 }
+
+
+
+
+
+
+
 
 
 // for (let i = 1 ; i <= 10 ; i++){
