@@ -4,19 +4,25 @@ for (let i = 1 ; i <= 15 ; i++){
     // let risultatoDivisione = i % 3;
     // console.log(risultatoDivisione);
     if (i % 5 == 0 && i % 3 == 0){
-        console.log('sono un multiplo di tre e cinque',i)
+        //console.log('sono un multiplo di tre e cinque',i);
+        console.log('FizzBuzz');
         // alert('sono un multiplo di tre e cinque')
     }
     else if (i % 3 == 0){
-        console.log('sono un multiplo di tre',i)
+        //console.log('sono un multiplo di tre',i);
+        console.log('Fizz');
+
         // alert('sono un multiplo di tre')
     }
     else if (i % 5 == 0){
-        console.log('sono un multiplo di cinque',i)
+        //console.log('sono un multiplo di cinque',i);
+        console.log('Buzz');
+
         // alert('sono un multiplo di cinque')
     }
     else{
-        console.log('non sono un divisore', i)
+        //console.log('non sono un divisore', i);
+        console.log(i)
     }
 
 }
