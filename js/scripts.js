@@ -1,27 +1,20 @@
 console.log('int ok');  //inizializzazione progetto
-for (let i = 1 ; i <= 15 ; i++){
-    // console.log('i',i,typeof i);
-    // let risultatoDivisione = i % 3;
-    // console.log(risultatoDivisione);
+for (let i = 1 ; i <= 100 ; i++){
+    // console.log('i',i,typeof i); //debug
     if (i % 5 == 0 && i % 3 == 0){
-        //console.log('sono un multiplo di tre e cinque',i);
+        //console.log('sono un multiplo di tre e cinque',i); //debug
         console.log('FizzBuzz');
-        // alert('sono un multiplo di tre e cinque')
     }
     else if (i % 3 == 0){
-        //console.log('sono un multiplo di tre',i);
+        //console.log('sono un multiplo di tre',i); //debug
         console.log('Fizz');
-
-        // alert('sono un multiplo di tre')
     }
     else if (i % 5 == 0){
-        //console.log('sono un multiplo di cinque',i);
+        //console.log('sono un multiplo di cinque',i); //debug
         console.log('Buzz');
-
-        // alert('sono un multiplo di cinque')
     }
     else{
-        //console.log('non sono un divisore', i);
+        //console.log('non sono un divisore', i); //debug
         console.log(i)
     }
 
