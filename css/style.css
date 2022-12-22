@@ -1,11 +1,12 @@
-/* *{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
+
+
 body{
     background-color: #2793F2;
-    /* background-color: #2073bb; */
     font-family: 'Poppins', sans-serif;
 }
 .container{
