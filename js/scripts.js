@@ -1,5 +1,5 @@
 console.log('int ok');  //inizializzazione progetto
-for (let i = 1 ; i <= 15 ; i++){
+for (let i = 1 ; i <= 100 ; i++){
     // console.log('i',i,typeof i); //debug
 
     const containerBox = document.getElementById("container-box"); //prendo un 'elemento ul' del DOM tramite il suo id
@@ -8,28 +8,28 @@ for (let i = 1 ; i <= 15 ; i++){
     const box = document.createElement('div');    //creo un elemento del DOM
     containerBox.append(box);
     box.className = "box";
-    console.log(box.classList);
+    //console.log(box.classList); //debug
 
     if (i % 5 == 0 && i % 3 == 0){
         //console.log('sono un divisibile di tre e cinque',i); //debug
         console.log('FizzBuzz');    //stampa console
         box.innerHTML = 'FizzBuzz';  //stampa dom
         box.classList.add("fizz-buzz");
-        console.log(box.classList);
+        //console.log(box.classList);
     }
     else if (i % 3 == 0){
         //console.log('sono un divisibile di tre',i); //debug
         console.log('Fizz');    //stampa console
         box.innerHTML = 'Fizz';  //stampa dom
         box.classList.add("fizz");
-        console.log(box.classList);
+        //console.log(box.classList); //debug
     }
     else if (i % 5 == 0){
         //console.log('sono un divisibile di cinque',i); //debug
         console.log('Buzz');    //stampa console
         box.innerHTML = 'Buzz';  //stampa dom
         box.classList.add("buzz");
-        console.log(box.classList);
+        //console.log(box.classList); //debug
 
     }
     else{
@@ -38,7 +38,7 @@ for (let i = 1 ; i <= 15 ; i++){
         box.innerHTML = i;  //stampa dom
 
         box.classList.add("default-box");
-        console.log(box.classList);
+        //console.log(box.classList); //debug
     }
 
 

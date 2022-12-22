@@ -9,13 +9,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    max-width: 1200px;
+    max-width: 760px;
     margin: 0 auto;
     padding: 20px;
 }
 h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #D9D6D2;
 }
 #container-box{
@@ -47,3 +47,7 @@ h1{
     color: #D9D6D2;
     background-color: #242526;
 }
+
+
+
+
